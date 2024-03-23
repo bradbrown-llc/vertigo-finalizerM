@@ -1,6 +1,6 @@
-import { Fallbacks, KvCache } from '../../../llc/kvcache/mod.ts'
-import { Ejra } from '../../../llc/ejra/lib/Ejra.ts'
-import { Toad } from '../../../llc/toad/mod.ts'
+import { Fallbacks, KvCache } from 'https://cdn.jsdelivr.net/gh/bradbrown-llc/kvcache@0.0.2-vertigo/mod.ts'
+import { Ejra } from 'https://cdn.jsdelivr.net/gh/bradbrown-llc/ejra@0.4.2-vertigo/mod.ts'
+import { Toad } from 'https://cdn.jsdelivr.net/gh/bradbrown-llc/toad@0.0.6-vertigo/mod.ts'
 import { kvv } from './kvv.ts'
 import { processId } from './processId.ts'
 

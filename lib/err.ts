@@ -1,4 +1,4 @@
-import { AIQ } from 'https://deno.land/x/aiq@0.0.0/mod.ts'
+import { AIQ } from 'https://cdn.jsdelivr.net/gh/bradbrown-llc/aiq@0.0.0/mod.ts'
 
 const err = new AIQ<Error>()
 

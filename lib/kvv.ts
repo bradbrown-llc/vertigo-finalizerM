@@ -1,5 +1,5 @@
-import { Fallbacks } from '../../../llc/kvcache/mod.ts'
-import { KvVertigo } from '../../../llc/kv_vertigo/mod.ts'
+import { Fallbacks } from 'https://cdn.jsdelivr.net/gh/bradbrown-llc/kvcache@0.0.2-vertigo/mod.ts'
+import { KvVertigo } from 'https://cdn.jsdelivr.net/gh/bradbrown-llc/kvvertigo@0.0.2/mod.ts'
 import { processId } from './processId.ts'
 
 const kvPath = Deno.env.get('DENO_KV_PATH')
